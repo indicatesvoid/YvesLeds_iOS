@@ -1,0 +1,3 @@
+[submodule "RedBearBLE"]
+	path = RedBearBLE
+	url = git@github.com:RedBearLab/iOS.git
