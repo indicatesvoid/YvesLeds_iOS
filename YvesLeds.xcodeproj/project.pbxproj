@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		39042779956D3CB7663A99F8 /* libPods-YvesLeds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AF11F8091B767214EBDE48 /* libPods-YvesLeds.a */; };
+		4B6313A21A70620F0074C513 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4B63139D1A70620F0074C513 /* .gitignore */; };
+		4B6313A31A70620F0074C513 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B63139F1A70620F0074C513 /* BLE.m */; };
+		4B6313A41A70620F0074C513 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4B6313A11A70620F0074C513 /* README.md */; };
 		4B7EAC781A65FFEB00260B64 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7EAC771A65FFEB00260B64 /* TabViewController.m */; };
 		4B7EAC7B1A6704F900260B64 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7EAC7A1A6704F900260B64 /* SettingsViewController.m */; };
 		4BF96A691A65CA8900AF21B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF96A681A65CA8900AF21B7 /* main.m */; };
@@ -33,6 +36,11 @@
 /* Begin PBXFileReference section */
 		1D5782664D463F7BF124C374 /* Pods-YvesLeds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YvesLeds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YvesLeds/Pods-YvesLeds.debug.xcconfig"; sourceTree = "<group>"; };
 		2811FAF1F4447214EE71DDCE /* Pods-YvesLeds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YvesLeds.release.xcconfig"; path = "Pods/Target Support Files/Pods-YvesLeds/Pods-YvesLeds.release.xcconfig"; sourceTree = "<group>"; };
+		4B63139D1A70620F0074C513 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4B63139E1A70620F0074C513 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		4B63139F1A70620F0074C513 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		4B6313A01A70620F0074C513 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		4B6313A11A70620F0074C513 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4B7EAC761A65FFDD00260B64 /* TabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
 		4B7EAC771A65FFEB00260B64 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
 		4B7EAC791A6704F900260B64 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
@@ -83,9 +91,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4B63139C1A70620F0074C513 /* RBL_BLE_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B63139D1A70620F0074C513 /* .gitignore */,
+				4B63139E1A70620F0074C513 /* BLE.h */,
+				4B63139F1A70620F0074C513 /* BLE.m */,
+				4B6313A01A70620F0074C513 /* BLEDefines.h */,
+				4B6313A11A70620F0074C513 /* README.md */,
+			);
+			path = RBL_BLE_iOS;
+			sourceTree = "<group>";
+		};
 		4BF96A5A1A65CA8900AF21B7 = {
 			isa = PBXGroup;
 			children = (
+				4B63139C1A70620F0074C513 /* RBL_BLE_iOS */,
 				4BF96A651A65CA8900AF21B7 /* YvesLeds */,
 				4BF96A821A65CA8A00AF21B7 /* YvesLedsTests */,
 				4BF96A641A65CA8900AF21B7 /* Products */,
@@ -242,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6313A21A70620F0074C513 /* .gitignore in Resources */,
 				4BF96A751A65CA8A00AF21B7 /* Main.storyboard in Resources */,
 				4BF96A7A1A65CA8A00AF21B7 /* LaunchScreen.xib in Resources */,
 				4BF96A771A65CA8A00AF21B7 /* Images.xcassets in Resources */,
@@ -299,7 +321,9 @@
 				4BF96A6C1A65CA8900AF21B7 /* AppDelegate.m in Sources */,
 				4BF96A6F1A65CA8900AF21B7 /* AllOnViewController.m in Sources */,
 				4B7EAC7B1A6704F900260B64 /* SettingsViewController.m in Sources */,
+				4B6313A31A70620F0074C513 /* BLE.m in Sources */,
 				4BF96A691A65CA8900AF21B7 /* main.m in Sources */,
+				4B6313A41A70620F0074C513 /* README.md in Sources */,
 				4B7EAC781A65FFEB00260B64 /* TabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

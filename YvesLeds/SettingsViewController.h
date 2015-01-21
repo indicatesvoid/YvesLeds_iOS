@@ -7,10 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LeDiscovery.h"
-#import "BLECell.h"
 
-@interface SettingsViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource, LeDiscoveryDelegate> {
+@interface SettingsViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource> {
     NSArray* devices;
 }
 

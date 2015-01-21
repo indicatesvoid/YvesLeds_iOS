@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5B4B3A40-D368-41D9-9599-57C2325236D8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YvesLeds</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B92C7B117A603AB98990C59F6F7F1E92493DB2D9</key>
+		<string>github.com:RedBearLab/iOS.git</string>
+		<key>C8CF28EB2E46A1F5C316065295B6E8092E6B8D54</key>
+		<string>github.com:indicatesvoid/YvesLeds_iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YvesLeds.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B92C7B117A603AB98990C59F6F7F1E92493DB2D9</key>
+		<string>..RedBearBLE</string>
+		<key>C8CF28EB2E46A1F5C316065295B6E8092E6B8D54</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:indicatesvoid/YvesLeds_iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C8CF28EB2E46A1F5C316065295B6E8092E6B8D54</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C8CF28EB2E46A1F5C316065295B6E8092E6B8D54</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YvesLeds</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B92C7B117A603AB98990C59F6F7F1E92493DB2D9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YvesLedsRedBearBLE</string>
+		</dict>
+	</array>
+</dict>
+</plist>

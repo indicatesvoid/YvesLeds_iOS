@@ -10,9 +10,9 @@
 #define YvesLeds_TabViewController_h
 
 #import <UIKit/UIKit.h>
+#import "BLE.h"
 
-
-@interface TabViewController : UITabBarControlle
+@interface TabViewController : UITabBarController <BLEDelegate>
 
 @property (weak, nonatomic) CBPeripheral* currentPeripheral;
 

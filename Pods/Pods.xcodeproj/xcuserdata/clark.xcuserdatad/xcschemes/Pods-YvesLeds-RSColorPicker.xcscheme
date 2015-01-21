@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CF54BB648AA941B7EA5505ED"
+               BlueprintIdentifier = "AB8658CFD57EA0B9FB671BFD"
                BuildableName = "libPods-YvesLeds-RSColorPicker.a"
                BlueprintName = "Pods-YvesLeds-RSColorPicker"
                ReferencedContainer = "container:Pods.xcodeproj">
